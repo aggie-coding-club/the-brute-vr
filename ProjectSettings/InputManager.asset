@@ -293,6 +293,7 @@ InputManager:
     type: 0
     axis: 0
     joyNum: 0
+<<<<<<< Updated upstream
   - serializedVersion: 3
     m_Name: XRI_Left_Primary2DAxis_Vertical
     descriptiveName: Device joystick/touchpad horizontal motion
@@ -917,4 +918,6 @@ InputManager:
     type: 2
     axis: 5
     joyNum: 0
+=======
+>>>>>>> Stashed changes
   m_UsePhysicalKeys: 0

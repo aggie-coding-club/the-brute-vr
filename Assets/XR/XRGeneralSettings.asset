@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-4749612712735462779
+=======
+--- !u!114 &-3700017586141789837
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18,7 +22,11 @@ MonoBehaviour:
   m_Loaders:
   - {fileID: 11400000, guid: acb8df757c68f4d0b9fb3b0dcbf2748f, type: 2}
   - {fileID: 11400000, guid: 9de916b1f6f2f4e2bba2146674e43fea, type: 2}
+<<<<<<< Updated upstream
 --- !u!114 &-2037679700296083371
+=======
+--- !u!114 &-1569271384301351542
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,7 +38,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_LoaderManagerInstance: {fileID: -4749612712735462779}
+=======
+  m_LoaderManagerInstance: {fileID: -3700017586141789837}
+>>>>>>> Stashed changes
   m_InitManagerOnStart: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -46,4 +58,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Keys: 01000000
   Values:
+<<<<<<< Updated upstream
   - {fileID: -2037679700296083371}
+=======
+  - {fileID: -1569271384301351542}
+>>>>>>> Stashed changes
