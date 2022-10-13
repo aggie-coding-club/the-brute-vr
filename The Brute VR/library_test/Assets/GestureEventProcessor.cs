@@ -22,7 +22,7 @@ public class GestureEventProcessor : MonoBehaviour
             return;
         }
         if (data.gestureID > 0.5) { 
-            
+            ///
         }
     }
 }
