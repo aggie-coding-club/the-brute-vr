@@ -258,11 +258,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LicenseName: 
   LicenseKey: 
-  GestureDatabaseFile: 
+  GestureDatabaseFile: test1.dat
   unityXrPlugin: 0
   mivryCoordinateSystem: 0
-  LeftHand: {fileID: 0}
-  LeftTriggerInput: 
+  LeftHand: {fileID: 829600017}
+  LeftTriggerInput: LeftCOntroller_ButtonA
   LeftTriggerInputType: 1
   LeftTriggerValue: 0
   LeftTriggerThreshold: 0.9
@@ -277,7 +277,19 @@ MonoBehaviour:
   compensateHeadMotion: 0
   OnGestureCompletion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 368139891b1cb7b4999d948af49694fc, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &646321650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,6 +554,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 829600015}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &829600017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+  m_PrefabInstance: {fileID: 829600015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &829600018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829600017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368139891b1cb7b4999d948af49694fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinch:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Pinch
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9fa20a9b-7f85-4c05-b9c1-f70abb2acc85
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &1004959894
 GameObject:
   m_ObjectHideFlags: 0
