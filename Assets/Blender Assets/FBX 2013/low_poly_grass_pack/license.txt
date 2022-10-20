@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low poly grass pack
+* source:	https://sketchfab.com/3d-models/low-poly-grass-pack-5194ac6d21c242e188c2fbbe0ac122e6
+* author:	Nicothin (https://sketchfab.com/juhyt80)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low poly grass pack" (https://sketchfab.com/3d-models/low-poly-grass-pack-5194ac6d21c242e188c2fbbe0ac122e6) by Nicothin (https://sketchfab.com/juhyt80) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
