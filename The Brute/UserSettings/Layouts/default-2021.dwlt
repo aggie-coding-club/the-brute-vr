@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 125
+  controlID: 116
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 124
+  controlID: 111
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 74
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -536,22 +536,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Settings
+    - Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Settings
+  - Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\shlok\Documents\BruteVrGame\the-brute-vr\The Brute
+  m_LastProjectPath: C:\Users\korou\OneDrive\Documents\GitHub\the-brute-vr\The Brute
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 123}
-    m_SelectedIDs: 82ab0000
-    m_LastClickedID: 43906
-    m_ExpandedIDs: 00000000d0a90000d2a90000d4a90000e2ad0000eaad000020ae00002aae0000eeb00000fab0000016b100002ab100006eb1000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: dc840000
+    m_LastClickedID: 34012
+    m_ExpandedIDs: 00000000c6840000c8840000ca840000cc840000d6840000368500005692000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d0a90000d2a90000d4a90000
+    m_ExpandedIDs: 00000000c6840000c8840000ca840000cc840000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -607,21 +607,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000206f0000ca6f0000
+    m_ExpandedInstanceIDs: c6230000206f0000ca6f0000368b00006e830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Crate
+      m_OriginalName: Crate
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 34096
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -631,7 +631,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 230}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
@@ -694,8 +694,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -708,18 +708,18 @@ MonoBehaviour:
       y: 21
       width: 812
       height: 494
-    m_Scale: {x: 3, y: 3}
-    m_Translation: {x: 175.44893, y: 213.9498}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 406, y: 247}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -58.482975
-      y: -71.3166
-      width: 270.66666
-      height: 164.66667
+      x: -406
+      y: -247
+      width: 812
+      height: 494
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 812, y: 515}
@@ -954,9 +954,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.633719, y: -0.964077, z: -25.792633}
+    m_Target: {x: 9.361841, y: 7.985367, z: -28.735302}
     speed: 2
-    m_Value: {x: 11.633719, y: -0.964077, z: -25.792633}
+    m_Value: {x: 9.361841, y: 7.985367, z: -28.735302}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1003,13 +1003,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.67323524, y: -0.17825623, z: 0.17226863, w: 0.6966461}
+    m_Target: {x: -0.078016095, y: 0.8982319, z: -0.17769857, w: -0.39435616}
     speed: 2
-    m_Value: {x: 0.6732308, y: -0.17825507, z: 0.1722675, w: 0.6966415}
+    m_Value: {x: -0.07828253, y: 0.8976391, z: -0.17758128, w: -0.39570293}
   m_Size:
-    m_Target: 10.80815
+    m_Target: 0.0071766768
     speed: 2
-    m_Value: 10.80815
+    m_Value: 0.0071766768
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1065,10 +1065,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4ed0feff88e3feffca18ffffea1affff9a42ffff1c4fffffc857ffff36c7ffff8aa80000bebe0000d6c60000
+      scrollPos: {x: 0, y: 1933}
+      m_SelectedIDs: 768b0000
+      m_LastClickedID: 35702
+      m_ExpandedIDs: f6d1ffff02f0ffff688b0000768b0000d6900000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

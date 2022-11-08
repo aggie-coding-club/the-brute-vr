@@ -716,7 +716,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
 --- !u!114 &633526444
 MonoBehaviour:
@@ -13482,7 +13482,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5966169713070849161, guid: 7279c53ff2b9072418a194d3251cdb8d, type: 3}
+  - {fileID: 2100000, guid: a8ceee000d173394bb2409f3c051fad9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
