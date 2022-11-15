@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: da2bc9b187fbc634fa4b510af9c96a2d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tuffy
+  fontNames:
+  - Tuffy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2572b3ab685442243933ff6f65f6bb3a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
