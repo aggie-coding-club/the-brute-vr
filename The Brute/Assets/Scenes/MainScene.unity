@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07052275, g: 0.35373604, b: 0.97078824, a: 1}
+  m_IndirectSpecularColor: {r: 0.07052299, g: 0.35362434, b: 0.97000647, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4155,17 +4155,17 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   colorGradientTexture: {fileID: 0}
   shallowColor: {r: 0, g: 0.7725491, b: 0.62352943, a: 0.5019608}
-  deepColor: {r: 0.01176471, g: 0.2860177, b: 0.50980073, a: 1}
+  deepColor: {r: 0.01176471, g: 0.28601766, b: 0.50980073, a: 1}
   colorDepth: 1.93
-  horizonColor: {r: 0, g: 0.22719419, b: 0.8, a: 1}
+  horizonColor: {r: 0, g: 0.22719416, b: 0.8, a: 1}
   horizonDistance: 2
   shoreFade: 1
-  shoreColor: {r: 0, g: 0.98039216, b: 0.301704, a: 0}
+  shoreColor: {r: 0, g: 0.98039216, b: 0.30170396, a: 0}
   shoreStrength: 0
   shoreBlend: 1
   shoreDepth: 1.61
   waveColor: {r: 0, g: 0, b: 0, a: 0}
-  underwaterColor: {r: 0.20367816, g: 0.3095471, b: 0.517647, a: 1}
+  underwaterColor: {r: 0.20367813, g: 0.30954704, b: 0.517647, a: 1}
   underwaterColorStrength: 1
   underwaterRefractionStrength: 0.099
   surfaceFoamTexture: {fileID: 2800000, guid: d3b0d77dfe711a04c8ff18ecc260aa66, type: 3}
@@ -6803,8 +6803,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grassPainter: {fileID: 1813038596}
   sourceMesh: {fileID: 0}
-  material: {fileID: 0}
-  computeShader: {fileID: 0}
+  material: {fileID: 2100000, guid: f18b168f63e46cd4e94acfcc8883ac40, type: 2}
+  computeShader: {fileID: 7200000, guid: 46483e2f9ea532947a4bf97f893345ce, type: 3}
   allowedBladesPerVertex: 4
   allowedSegmentsPerBlade: 5
   grassRandomHeight: 0.25
@@ -6862,7 +6862,7 @@ MonoBehaviour:
   rangeG: 0
   rangeB: 0
   AdjustedColor: {r: 0, g: 0, b: 0, a: 0}
-  hitPosGizmo: {x: 6.3187366, y: 6.9734344, z: -27.399727}
+  hitPosGizmo: {x: 6.6515493, y: 7.0020022, z: -19.459877}
   hitNormal: {x: 0, y: 0, z: 0}
 --- !u!33 &1813038597
 MeshFilter:
