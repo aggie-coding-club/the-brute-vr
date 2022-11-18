@@ -217,8 +217,8 @@ void Main(uint3 id : SV_DispatchThreadID)
     float3 color = sv.color;
     
     // Set grass height
-    _GrassHeight = sv.uv.y;
-    _GrassWidth = sv.uv.x;  // UV.x == width multiplier (set in GrassPainter.cs)
+    _GrassHeight = (sv.uv.y);
+    _GrassWidth = (sv.uv.x);  // UV.x == width multiplier (set in GrassPainter.cs)
     _GrassHeight += clamp(randomisedPos * _GrassRandomHeight, 1 - _GrassRandomHeight,
     1 + _GrassRandomHeight);
     _GrassWidth *= (distanceFade);
