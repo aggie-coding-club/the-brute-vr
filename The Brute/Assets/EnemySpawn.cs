@@ -5,7 +5,9 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     public GameObject enemy;
+    public Camera camera;
     public int spawnRate = 5;
+    private int enemyNum = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,21 @@ public class EnemySpawn : MonoBehaviour
     }
 
     void SpawnNow() {
-        Instantiate(enemy, getRandomPosition(), Quaternion.identity);
+        GameObject newEnemy = Instantiate(enemy, getRandomPosition(), Quaternion.identity);
+        enemyNum++;
+        newEnemy.name = "Enemy" + enemyNum;
+        if(I_Can_See(newEnemy)) {
+            Destroy(newEnemy);
+            enemyNum--;
+            Debug.Log("Enemy spawned within player view"); 
+        }
+    }
+
+    private bool I_Can_See(GameObject Object) {
+        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(camera);
+        if (GeometryUtility.TestPlanesAABB(planes, Object.GetComponent<Collider>().bounds))
+            return true;
+        else
+            return false;
     }
 }

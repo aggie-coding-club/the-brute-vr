@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07052275, g: 0.35373604, b: 0.97078824, a: 1}
+  m_IndirectSpecularColor: {r: 0.07049093, g: 0.35360757, b: 0.97003746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -973,7 +973,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984566320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.508, y: 7.185, z: -27.11}
+  m_LocalPosition: {x: 8.508, y: 11.639, z: -27.11}
   m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1381,17 +1381,17 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   colorGradientTexture: {fileID: 0}
   shallowColor: {r: 0, g: 0.7725491, b: 0.62352943, a: 0.5019608}
-  deepColor: {r: 0.01176471, g: 0.2860289, b: 0.50980073, a: 1}
+  deepColor: {r: 0.01176471, g: 0.28602803, b: 0.50980073, a: 1}
   colorDepth: 1.93
-  horizonColor: {r: 0, g: 0.2272054, b: 0.8, a: 1}
+  horizonColor: {r: 0, g: 0.22720453, b: 0.8, a: 1}
   horizonDistance: 2
   shoreFade: 1
-  shoreColor: {r: 0, g: 0.98039216, b: 0.30171517, a: 0}
+  shoreColor: {r: 0, g: 0.98039216, b: 0.30171433, a: 0}
   shoreStrength: 0
   shoreBlend: 1
   shoreDepth: 1.61
   waveColor: {r: 0, g: 0, b: 0, a: 0}
-  underwaterColor: {r: 0.20368877, g: 0.30955827, b: 0.517647, a: 1}
+  underwaterColor: {r: 0.20368797, g: 0.30955744, b: 0.517647, a: 1}
   underwaterColorStrength: 1
   underwaterRefractionStrength: 0.099
   surfaceFoamTexture: {fileID: 2800000, guid: d3b0d77dfe711a04c8ff18ecc260aa66, type: 3}
@@ -1561,6 +1561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 984566320}
+  camera: {fileID: 1895787058}
   spawnRate: 5
 --- !u!4 &1402572252
 Transform:
