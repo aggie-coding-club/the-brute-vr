@@ -557,10 +557,10 @@
                 {
                     "name": "",
                     "id": "8e383b1a-270f-4c20-819b-89a59cffb498",
-                    "path": "<Joystick>/stick",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
                     "interactions": "",
                     "processors": "StickDeadzone",
-                    "groups": "Continuous Move;Generic XR Controller",
+                    "groups": "Continuous Move",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
