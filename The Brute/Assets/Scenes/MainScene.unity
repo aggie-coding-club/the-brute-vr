@@ -931,7 +931,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8164388750953057965, guid: e4a5dc4ebb677754394e7427e3e2147a, type: 3}
 --- !u!1001 &611183986
@@ -2615,17 +2615,17 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   colorGradientTexture: {fileID: 0}
   shallowColor: {r: 0, g: 0.7725491, b: 0.62352943, a: 0.5019608}
-  deepColor: {r: 0.01176471, g: 0.28593352, b: 0.50980073, a: 1}
+  deepColor: {r: 0.01176471, g: 0.2859322, b: 0.50980073, a: 1}
   colorDepth: 1.93
-  horizonColor: {r: 0, g: 0.22711003, b: 0.8, a: 1}
+  horizonColor: {r: 0, g: 0.22710875, b: 0.8, a: 1}
   horizonDistance: 2
   shoreFade: 1
-  shoreColor: {r: 0, g: 0.98039216, b: 0.3016198, a: 0}
+  shoreColor: {r: 0, g: 0.98039216, b: 0.30161852, a: 0}
   shoreStrength: 0
   shoreBlend: 1
   shoreDepth: 1.61
   waveColor: {r: 0, g: 0, b: 0, a: 0}
-  underwaterColor: {r: 0.20359838, g: 0.3094629, b: 0.517647, a: 1}
+  underwaterColor: {r: 0.20359716, g: 0.30946162, b: 0.517647, a: 1}
   underwaterColorStrength: 1
   underwaterRefractionStrength: 0.099
   surfaceFoamTexture: {fileID: 2800000, guid: d3b0d77dfe711a04c8ff18ecc260aa66, type: 3}
