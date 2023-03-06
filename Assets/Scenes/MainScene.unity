@@ -2696,8 +2696,8 @@ MonoBehaviour:
   foamShadowsExpanded: 0
   intersectionEffectsExpanded: 0
   planarReflectionsExpanded: 0
-  reflectionStrength: 0.012
-  reflectionFresnel: 2.5
+  reflectionStrength: 0.06
+  reflectionFresnel: 1.89
   useColorGradient: 0
   colorGradient:
     serializedVersion: 2
@@ -2730,17 +2730,17 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   colorGradientTexture: {fileID: 0}
   shallowColor: {r: 0, g: 0.7725491, b: 0.62352943, a: 0.5019608}
-  deepColor: {r: 0.01176471, g: 0.2859325, b: 0.50980073, a: 1}
+  deepColor: {r: 0.01176471, g: 0.28580806, b: 0.50980073, a: 1}
   colorDepth: 1.93
-  horizonColor: {r: 0, g: 0.22710901, b: 0.8, a: 1}
-  horizonDistance: 2
-  shoreFade: 1
-  shoreColor: {r: 0, g: 0.98039216, b: 0.3016188, a: 0}
+  horizonColor: {r: 0, g: 0.22698456, b: 0.8, a: 1}
+  horizonDistance: 4.2
+  shoreFade: 0.78
+  shoreColor: {r: 0, g: 0.98039216, b: 0.30149436, a: 0}
   shoreStrength: 0
-  shoreBlend: 1
+  shoreBlend: 0.7
   shoreDepth: 1.61
   waveColor: {r: 0, g: 0, b: 0, a: 0}
-  underwaterColor: {r: 0.20359743, g: 0.30946192, b: 0.517647, a: 1}
+  underwaterColor: {r: 0.20347947, g: 0.30933747, b: 0.517647, a: 1}
   underwaterColorStrength: 1
   underwaterRefractionStrength: 0.099
   surfaceFoamTexture: {fileID: 2800000, guid: d3b0d77dfe711a04c8ff18ecc260aa66, type: 3}
@@ -2764,50 +2764,50 @@ MonoBehaviour:
   surfaceFoamHeightMask: 0
   surfaceFoamHeightMaskSmoothness: 0
   enableHeightMask: 0
-  foamShadowStrength: 0.174
-  foamShadowDepth: 10
-  surfaceFoamShadowProjection: 15
-  intersectionFoamShadowProjection: 4.9
+  foamShadowStrength: 0.48
+  foamShadowDepth: 8.5
+  surfaceFoamShadowProjection: 5.4
+  intersectionFoamShadowProjection: 9.6
   foamMovement: 0
-  intersectionFoamDepth: 0.08
+  intersectionFoamDepth: 1.23
   intersectionFoamTexture: {fileID: 2800000, guid: 772031b03d9d46e4ab03e15c8e17718c,
     type: 3}
   intersectionFoamColor: {r: 1, g: 1, b: 1, a: 1}
-  intersectionFoamMovement: {x: 0, y: 0}
-  intersectionFoamDirection: 0
-  intersectionFoamSpeed: 0
-  intersectionFoamScale: 0.19
-  intersectionFoamSampling: {x: 1, y: 0}
-  intersectionFoamCutoff: 1
-  intersectionFoamDistortion: 0
+  intersectionFoamMovement: {x: 0.5, y: 0.12}
+  intersectionFoamDirection: 0.5
+  intersectionFoamSpeed: 0.12
+  intersectionFoamScale: 1.26
+  intersectionFoamSampling: {x: 0.52, y: 0.99}
+  intersectionFoamCutoff: 0.52
+  intersectionFoamDistortion: 0.99
   enableIntersectionEffects: 1
   intersectionFoamBlend: 1
-  intersectionWaterBlend: 0
+  intersectionWaterBlend: 0.49
   shoreFoamSpeed: 0
   shoreFoamWidth: 0
   shoreFoamFrequency: 0
   shoreFoamBreakupStrength: 0
   shoreFoamBreakupScale: 0
   lighting: 0
-  lightingSmoothness: 0.857
+  lightingSmoothness: 1
   lightingSpecularColor: {r: 1, g: 1, b: 1, a: 0}
   lightingDiffuseColor: {r: 0, g: 0, b: 0, a: 0}
-  lightingHardness: 0.163
+  lightingHardness: 0.79
   normalsTexture: {fileID: 2800000, guid: a41da5f5671718b47bbc71e9ef691103, type: 3}
-  normalsMovement: {x: 0.04, y: 0.67}
-  normalsStrength: 0.266
-  normalsScale: 0.67
-  normalsSpeed: 0.04
-  refractionStrength: 0.114
-  waveVisuals: {x: 0.015, y: 1.6, z: 0.01}
-  waveSteepness: 0.015
+  normalsMovement: {x: 0.012, y: 1.28}
+  normalsStrength: 0.43
+  normalsScale: 1.28
+  normalsSpeed: 0.012
+  refractionStrength: 0.063
+  waveVisuals: {x: 0.145, y: 1.6, z: 0.01}
+  waveSteepness: 0.145
   waveLength: 1.6
   waveSpeed: 0.01
-  waveDirections: {x: 0.037, y: 0.128, z: 0.447, w: 0.17}
-  waveDirection1: 0.037
-  waveDirection2: 0.128
-  waveDirection3: 0.447
-  waveDirection4: 0.17
+  waveDirections: {x: 0.149, y: 0.44, z: 0.248, w: 0.48}
+  waveDirection1: 0.149
+  waveDirection2: 0.44
+  waveDirection3: 0.248
+  waveDirection4: 0.48
   waterUVs: 1
   hideComponents: 0
   enableFoamShadows: 1
@@ -2955,6 +2955,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1149150798}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1169295202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_MouseTranslateSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_DesiredCursorLockMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
+        type: 3}
+      propertyPath: m_Name
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
 --- !u!1001 &1216920262
 PrefabInstance:
   m_ObjectHideFlags: 0
