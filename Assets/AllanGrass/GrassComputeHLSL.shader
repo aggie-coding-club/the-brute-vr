@@ -18,7 +18,7 @@ Shader "Custom/GrassComputeHLSL"
     {
         float3 positionWS; // The position in world space
         float2 uv;
-        float3 diffuseColor;
+        float3 diffuseColor;    
     };
     
     // A triangle on the generated mesh
